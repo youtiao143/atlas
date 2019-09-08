@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class BottomDragWidget extends StatelessWidget {
   final Widget body;
   final DragContainer dragContainer;
-
+  //修改注释
   BottomDragWidget({Key key, @required this.body, @required this.dragContainer})
       : assert(body != null),
         assert(dragContainer != null),
